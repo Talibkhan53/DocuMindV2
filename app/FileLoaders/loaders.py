@@ -44,7 +44,6 @@ class CsvLoader(Base):
                 
             """Reads file content and returns it as a string."""
             formatted_rows = []
-
         
             with open(file_path, "r",encoding="utf-8") as file:
                 if file_path.stat().st_size == 0:
